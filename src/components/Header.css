@@ -1,26 +1,27 @@
 .header-container {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-  text-align: center;
-}
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .selfie {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border:10px solid rgb(83, 83, 83);
+    box-sizing: border-box; 
 
-.selfie {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-}
-
-.gradient-text {
-  background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
-  background-size: cover;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  text-transform: uppercase;
-  font-size: 6em;
-  line-height: 1.75;
-  margin: 10px 0;
-}
+  }
+  
+  .gradient-text {
+    background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 4em;
+  }
