@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import GetCodeButton from '../components/GetCodeButton'
 
 const Header = props => {
   return (
@@ -7,7 +8,7 @@ const Header = props => {
       <div className="card">
         <h1>Midnight</h1>
         <div className="circle"> </div>
-        <h3>Get Code</h3>
+        <GetCodeButton />
       </div>
       <div className="card">
         <h1>Skyline</h1>
