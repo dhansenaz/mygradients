@@ -1,6 +1,6 @@
 .card-container {
   position: absolute;
-  top: 30%;
+  top: 25%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   justify-content: center;
@@ -8,7 +8,7 @@
   height: 100%;
   grid-gap: 50px;
   padding-top:25px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 .card {
   display: flex;
